@@ -1,0 +1,81 @@
+/* Font */
+
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.aw-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.aw-align-center {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.aw-main-banner {
+  display: block;
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  padding: 10px 0;
+  background-color: black;
+  width: 100%;
+}
+
+.aw-logo {
+  font-size: 22px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 100%;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul.aw-navigation {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul.aw-navigation li a {
+  color: white;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0 16px;
+}
+header nav ul.aw-navigation li:last-child a {
+  padding-right: 0;
+}
+header nav ul.aw-navigation li a:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: white;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+header nav ul.aw-navigation li a:hover:after {
+  width: 100%;
+  opacity: 1;
+}
