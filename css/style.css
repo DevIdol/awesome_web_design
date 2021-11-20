@@ -56,8 +56,8 @@ header nav ul.aw-navigation {
 }
 
 header nav ul.aw-navigation li a {
-  color: white;
   display: block;
+  color: white;
   font-size: 18px;
   text-transform: uppercase;
   padding: 0 16px;
